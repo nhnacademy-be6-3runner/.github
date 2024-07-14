@@ -1,7 +1,7 @@
 # 3조업고튀어(3runner)
 
 ## 1. 팀원
-### [김병우 (helloJosh)](https://github.com/helloJosh)
+
 
 ## 2. ERD
 erd 링크
