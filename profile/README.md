@@ -13,7 +13,7 @@
 
 ### DB관리자
 - 정주혁
-- DDL [DDL코드보기]()
+- DDL [DDL코드보기](https://github.com/nhnacademy-be6-3runner/3runner-docs/blob/main/db0.04.sql)
 
 
 ## 3. 아키텍처
