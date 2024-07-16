@@ -17,12 +17,12 @@
 
 
 ## 3. 아키텍처
-![systemarchitecture](https://github.com/user-attachments/assets/9bcdfe5c-8550-445d-9eab-74f8fcaef78e)
+![systemarchitecture (1)](https://github.com/user-attachments/assets/7ea1b7aa-2775-46e4-932a-6c8bd73f68bc)
 - 프론트 네트워크와 백 네트워크를 게이트웨이를 통해서만 접근 가능하게 도커 네트워크를 활용하여 설계하였습니다.
 - 배포 빈도와 요청이 높은 프론트 서버와 북 스토어 서버는 각각 2개를 만들어 부담을 줄였습니다.
 
 ## 4. CI/CD
-![cicd](https://github.com/user-attachments/assets/c187ac35-4810-44e9-b39c-572d2c0bbe60)
+![cicd (1)](https://github.com/user-attachments/assets/4dd7b06a-aeb3-455d-8cf4-34de8f26e6b8)
 - 코드가 머지했을 때만 깃 액션이 반응하게 파이프라인을 설계했습니다.
 - 프론트, 북스토어 서버는 배포 빈도가 높기 떄문에 스크립트를 작성하여 도커 stats를 활용해 무중단 배포를 구현하였습니다.
 
