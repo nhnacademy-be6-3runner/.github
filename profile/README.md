@@ -30,8 +30,8 @@
 체계적이고 효율적인 관리를 위해, [Github Project](https://github.com/orgs/nhnacademy-be6-3runner/projects/1)을 활용하여 프로젝트를 진행하였습니다.
 
 ### BackLog, RoadMap 활용
-RoadMap으로 일정 확인 -> 스크럼때 활용 -> delay, 연결필요 등 항목으로 스케쥴 관리
-RoadMap스샷
+![image](https://github.com/user-attachments/assets/ea9ffcef-046d-4db0-9947-bc38295b8bef)
+- 매일 9:30에 RoadMap과 BackLog를 활용하여 스크럼 회의를 진행했습니다.
 
 ### Scrum
 스크럼 스샷
