@@ -12,10 +12,10 @@ ddl, 스크린샷
 
 
 ## 3. 아키텍처
-아키텍쳐 사진
+![systemarchitecture](https://github.com/user-attachments/assets/9bcdfe5c-8550-445d-9eab-74f8fcaef78e)
 
 ## 4. CI/CD
-CI/CD 사진
+![cicd](https://github.com/user-attachments/assets/c187ac35-4810-44e9-b39c-572d2c0bbe60)
 
 ## 5. 프로젝트 관리
 체계적이고 효율적인 관리를 위해, [Github Project](https://github.com/orgs/nhnacademy-be3-CookShoong/projects/1)을 활용하여 프로젝트를 진행하였습니다.
