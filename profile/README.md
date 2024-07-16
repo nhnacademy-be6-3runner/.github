@@ -38,7 +38,7 @@
 - 스크럼은 평일, 하루에 한 번씩 진행하였습니다.
 
 ### Issue관리
-![image](https://github.com/user-attachments/assets/7e8de412-7f36-440e-b50b-e9327dada1d8)
+<img width="1448" alt="image" src="https://github.com/user-attachments/assets/6c28a5d3-8826-4c53-9aef-9c8c4dd6d244">
 - 개발시 Issue가 나왔을때 Issue관리를 통해서 해결하였습니다.
 
 ### Manage
