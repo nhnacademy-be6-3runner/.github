@@ -53,23 +53,23 @@
 - 완성되지 않은 코드도 PR로 올려 팀원들이 코드리뷰를 지속적으로 진행하였고
 - 팀원들이 전부 한번씩 확인해야만 코드를 merge할 수 있게 하였습니다.
 
-## 6. 일정관리 - WBS
+### 일정관리 - WBS
 ![Screenshot 2024-07-16 at 7 54 54 PM](https://github.com/user-attachments/assets/800e96e8-8be1-44ff-9cc6-c7eae51a2af6)
 - 일정은 도서, 주문, 회원 파트로 나누어서 일정을 유연하게 관리하였습니다.
 - 처음부터 중요도가 있는 파트에 일정을 배분하였습니다.
 
-## BackLog
+### BackLog
 ![image](https://github.com/user-attachments/assets/ea9ffcef-046d-4db0-9947-bc38295b8bef)
 - 일정관리와 같이 매일 BackLog도 관리하여 팀원의 스케쥴을 확인하였습니다.
 
-## 테스트 커버리지
+## 6. 테스트 커버리지
 Shop 서버의 주요 기능들에 대한 테스트 커버버리지 스샷
 
-## REST API Specification
+## 7. REST API Specification
 RestDoc 사용 스샷 및 설명
 
 
-# 업무 분담 및 주요기능
+## 8. 업무 분담 및 주요기능
 ## 김병우
 ### 담당
 - 장바구니
