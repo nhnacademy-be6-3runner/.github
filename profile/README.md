@@ -34,31 +34,33 @@
 - 매일 9:30에 RoadMap과 BackLog를 활용하여 스크럼 회의를 진행했습니다.
 
 ### Scrum
-스크럼 스샷
-스크럼은 평일, 하루에 한 번씩 진행하였습니다.
+![image](https://github.com/user-attachments/assets/d5105eff-b9a1-4782-84cc-ad51d8b37d6b)
+- 스크럼은 평일, 하루에 한 번씩 진행하였습니다.
 
 ### Issue관리
-Issue 사항 스샷
-
+![image](https://github.com/user-attachments/assets/7e8de412-7f36-440e-b50b-e9327dada1d8)
+- 개발시 Issue가 나왔을때 Issue관리를 통해서 해결하였습니다.
 
 ### Manage
-git flow 전략 스샷
+![image](https://github.com/user-attachments/assets/1b7e4369-bc0c-4112-a27e-d4e48064732c)
+- git flow branch 전략은 main/develop/feature로 나누어 개발을 하였습니다.
+- feature는 각각 기능을 만들때 사용하였고
+- develop은 기능이 완료되고 확인이 되었을때 pr을 올려 merge를 진행했습니다.
+- main은 배포시에 merge를 진행하였습니다.
 
-### PR
-Pr 전략 스샷
-
-### CodeReview
-코드리뷰 전략 스샷
+### PR, CodeReview
+![image](https://github.com/user-attachments/assets/0f44d96d-e618-48b6-a3df-6cc3df747000)
+- 완성되지 않은 코드도 PR로 올려 팀원들이 코드리뷰를 지속적으로 진행하였고
+- 팀원들이 전부 한번씩 확인해야만 코드를 merge할 수 있게 하였습니다.
 
 ## 6. 일정관리 - WBS
-WBS 스샷
-
-
-## Github Roadmap 관리
-주문, 회원, 도서 로 나누어서 일정관리
+![image](https://github.com/user-attachments/assets/34dcc8c7-f48a-41e5-87c3-272b8a999292)
+- 일정은 도서, 주문, 회원 파트로 나누어서 일정을 유연하게 관리하였습니다.
+- 처음부터 중요도가 있는 파트에 일정을 배분하였습니다.
 
 ## BackLog
-backlog 관리 스샷
+![image](https://github.com/user-attachments/assets/ea9ffcef-046d-4db0-9947-bc38295b8bef)
+- 일정관리와 같이 매일 BackLog도 관리하여 팀원의 스케쥴을 확인하였습니다.
 
 ## 테스트 커버리지
 Shop 서버의 주요 기능들에 대한 테스트 커버버리지 스샷
@@ -67,11 +69,30 @@ Shop 서버의 주요 기능들에 대한 테스트 커버버리지 스샷
 RestDoc 사용 스샷 및 설명
 
 
-
-
-
 # 업무 분담 및 주요기능
-
+## 김병우
+### 담당
+- 장바구니
+    - 비회원, 비회원 장바구니 REST API 구축과 UI 구현
+    - 쿠키 사용으로 비회원, 회원의 정보를 DB에 저장하여 사용성 증가
+    - Redis를 DB와 동기화하여 장바구니 사용성 증가
+- 주문
+    - 회원,비회원 주문 프로세스 REST API 구축과 UI 구현
+    - Toss Payment와 주문 프로세스를 한 트랜잭션에 묶어 주문 프로세스 구현
+    - 주소 등록에 행안부 API 추가하여 주소의 정확성을 높임
+- 쿠폰
+    - 쿠폰 REST API 구축과 UI 구현
+    - 쿠폰 어드민 REST API 구축과 UI 구현
+    - 쿠폰 발급에 RabbitMQ를 도입하여 쿠폰서버의 부담을 줄임
+- 포인트
+    - 포인트 REST API 구축과 UI 구현
+- 회원
+    - 만료 쿠폰 알림 REST API 구축과 UI 구현
+    - 배치서버를 사용하여 쿠폰 만료 알림과 생일 쿠폰 발급
+    - RabbitMq 메시지 큐 시스템으로 배치서버의 부담을 줄임
+- 인프라
+    - Git, GitAction, Docker로 네트워크를 설계 프로젝트의 유지보수성 높임
+    - 추후 k8s를 도입하여 유지보수성을 더 높일 계획이 있음
 
 
 ## 기술
