@@ -49,12 +49,12 @@
 - main은 배포시에 merge를 진행하였습니다.
 
 ### PR, CodeReview
-![image](https://github.com/user-attachments/assets/0f44d96d-e618-48b6-a3df-6cc3df747000)
+![Screenshot 2024-07-16 at 7 52 31 PM](https://github.com/user-attachments/assets/5b3495b6-871d-47e2-875b-191d68a6ef6e)
 - 완성되지 않은 코드도 PR로 올려 팀원들이 코드리뷰를 지속적으로 진행하였고
 - 팀원들이 전부 한번씩 확인해야만 코드를 merge할 수 있게 하였습니다.
 
 ## 6. 일정관리 - WBS
-![image](https://github.com/user-attachments/assets/34dcc8c7-f48a-41e5-87c3-272b8a999292)
+![Screenshot 2024-07-16 at 7 54 54 PM](https://github.com/user-attachments/assets/800e96e8-8be1-44ff-9cc6-c7eae51a2af6)
 - 일정은 도서, 주문, 회원 파트로 나누어서 일정을 유연하게 관리하였습니다.
 - 처음부터 중요도가 있는 파트에 일정을 배분하였습니다.
 
