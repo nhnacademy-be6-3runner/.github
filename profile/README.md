@@ -106,3 +106,4 @@ RestDoc 사용 스샷 및 설명
 ![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=flat&logo=RabbitMQ&logoColor=white)
 ![ApacheMaven](https://img.shields.io/badge/ApacheMaven-C71A36?style=flat&logo=ApacheMaven&logoColor=white)
 ![Toss Payments](https://img.shields.io/badge/TossPayments-0085CA?style=flat&logo=contactlesspayment&logoColor=white)
+![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=flat&logo=swagger&logoColor=white)
