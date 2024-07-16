@@ -1,24 +1,33 @@
 # 3조업고튀어(3runner)
 
 ## 1. 팀원
-
+- 김병우 [helloJosh](https://github.com/helloJosh)
+- 김은비
+- 유지아
+- 정주혁
+- 한민기
 
 ## 2. ERD
-erd 링크
+![bookstore (5)](https://github.com/user-attachments/assets/66cd8083-879c-40f7-8f8f-54d12d9cd6de)
+- 꾸준히 변경할 때 마다 버전 관리하여 0.04버전이 최종 버전이 되었습니다.
 
 ### DB관리자
 - 정주혁
-ddl, 스크린샷
+- DDL [DDL코드보기]()
 
 
 ## 3. 아키텍처
 ![systemarchitecture](https://github.com/user-attachments/assets/9bcdfe5c-8550-445d-9eab-74f8fcaef78e)
+- 프론트 네트워크와 백 네트워크를 게이트웨이를 통해서만 접근 가능하게 도커 네트워크를 활용하여 설계하였습니다.
+- 배포 빈도와 요청이 높은 프론트 서버와 북 스토어 서버는 각각 2개를 만들어 부담을 줄였습니다.
 
 ## 4. CI/CD
 ![cicd](https://github.com/user-attachments/assets/c187ac35-4810-44e9-b39c-572d2c0bbe60)
+- 코드가 머지했을 때만 깃 액션이 반응하게 파이프라인을 설계했습니다.
+- 프론트, 북스토어 서버는 배포 빈도가 높기 떄문에 스크립트를 작성하여 도커 stats를 활용해 무중단 배포를 구현하였습니다.
 
 ## 5. 프로젝트 관리
-체계적이고 효율적인 관리를 위해, [Github Project](https://github.com/orgs/nhnacademy-be3-CookShoong/projects/1)을 활용하여 프로젝트를 진행하였습니다.
+체계적이고 효율적인 관리를 위해, [Github Project](https://github.com/orgs/nhnacademy-be6-3runner/projects/1)을 활용하여 프로젝트를 진행하였습니다.
 
 ### BackLog, RoadMap 활용
 RoadMap으로 일정 확인 -> 스크럼때 활용 -> delay, 연결필요 등 항목으로 스케쥴 관리
