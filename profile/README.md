@@ -64,6 +64,15 @@
 
 ## 6. 테스트 커버리지
 Shop 서버의 주요 기능들에 대한 테스트 커버버리지 스샷
+### 북스토어 서버 테스트 커버리지 (필수)
+
+### 쿠폰서버 테스트 커버리지
+<img width="1189" alt="image" src="https://github.com/user-attachments/assets/db2e8968-ed14-4119-a890-b9ff6f431502">
+
+### 프론트 테스트 커버리지 (가능하면)
+
+### 배치서버 테스트 커버리지 (가능하면)
+
 
 ## 7. REST API Specification
 RestDoc 사용 스샷 및 설명
