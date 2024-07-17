@@ -2,7 +2,7 @@
 
 ## 1. 팀원
 - 김병우 [helloJosh](https://github.com/helloJosh)
-- 김은비
+- 김은비 [ubiies](https://github.com/ubiies)
 - 유지아
 - 정주혁
 - 한민기
@@ -102,7 +102,14 @@ RestDoc 사용 스샷 및 설명
 - 인프라
     - Git, GitAction, Docker로 네트워크를 설계 프로젝트의 유지보수성 높임
     - 추후 k8s를 도입하여 유지보수성을 더 높일 계획이 있음
-
+## 김은비
+### 담당
+## 유지아
+### 담당
+## 정주혁
+### 담당
+## 한민기
+### 담당
 
 ## 기술
 - Spring <br>
