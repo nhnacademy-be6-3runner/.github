@@ -71,8 +71,8 @@
 
 
 ## 7. REST API Specification
-RestDoc 사용 스샷 및 설명
-
+![스크린샷 2024-07-18 14 55 50](https://github.com/user-attachments/assets/a8970d4d-2180-41f5-b0ec-8317a68d56b0)
+- Spring REST DOC을 사용하여 API 명세서를 만든 후 Swagger UI를 사용하였습니다.
 
 ## 8. 업무 분담 및 주요기능
 ## 김병우
