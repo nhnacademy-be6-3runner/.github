@@ -65,11 +65,10 @@
 ## 6. 테스트 커버리지
 Shop 서버의 주요 기능들에 대한 테스트 커버버리지 스샷
 ### 북스토어 서버 테스트 커버리지
-![image](https://github.com/user-attachments/assets/fc0582b5-c182-48de-88f3-0837a693f8e5)
-
+![image](https://github.com/user-attachments/assets/83811ac6-3454-4a35-8b95-5746c96deee9)
 
 ### 쿠폰서버 테스트 커버리지
-<img width="1189" alt="image" src="https://github.com/user-attachments/assets/db2e8968-ed14-4119-a890-b9ff6f431502">
+![image](https://github.com/user-attachments/assets/aa44e9a0-3e57-43ba-be6a-9f05e905ac44)
 
 
 ## 7. REST API Specification
