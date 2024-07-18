@@ -3,9 +3,9 @@
 ## 1. 팀원
 - 김병우 [helloJosh](https://github.com/helloJosh)
 - 김은비 [ubiies](https://github.com/ubiies)
-- 유지아
+- 유지아 [lyujia](https://github.com/lyujia)
 - 정주혁
-- 한민기
+- 한민기 [dkssudrhd](https://github.com/dkssudrhd)
 
 ## 2. ERD
 ![bookstore (5)](https://github.com/user-attachments/assets/66cd8083-879c-40f7-8f8f-54d12d9cd6de)
@@ -63,20 +63,16 @@
 - 일정관리와 같이 매일 BackLog도 관리하여 팀원의 스케쥴을 확인하였습니다.
 
 ## 6. 테스트 커버리지
-Shop 서버의 주요 기능들에 대한 테스트 커버버리지 스샷
-### 북스토어 서버 테스트 커버리지 (필수)
+### 북스토어 API 서버 테스트 커버리지
+![image](https://github.com/user-attachments/assets/83811ac6-3454-4a35-8b95-5746c96deee9)
 
-### 쿠폰서버 테스트 커버리지
-<img width="1189" alt="image" src="https://github.com/user-attachments/assets/db2e8968-ed14-4119-a890-b9ff6f431502">
-
-### 프론트 테스트 커버리지 (가능하면)
-
-### 배치서버 테스트 커버리지 (가능하면)
+### 쿠폰서버 API 테스트 커버리지
+![image](https://github.com/user-attachments/assets/aa44e9a0-3e57-43ba-be6a-9f05e905ac44)
 
 
 ## 7. REST API Specification
-RestDoc 사용 스샷 및 설명
-
+![스크린샷 2024-07-18 14 55 50](https://github.com/user-attachments/assets/a8970d4d-2180-41f5-b0ec-8317a68d56b0)
+- Spring REST DOC을 사용하여 API 명세서를 만든 후 Swagger UI를 사용하였습니다.
 
 ## 8. 업무 분담 및 주요기능
 ## 김병우
@@ -84,32 +80,75 @@ RestDoc 사용 스샷 및 설명
 - 장바구니
     - 비회원, 비회원 장바구니 REST API 구축과 UI 구현
     - 쿠키 사용으로 비회원, 회원의 정보를 DB에 저장하여 사용성 증가
-    - Redis를 DB와 동기화하여 장바구니 사용성 증가
+    - Redis를 DB와 동기화하여 장바구니 TPS를 약 50% 증가 시킴
 - 주문
     - 회원,비회원 주문 프로세스 REST API 구축과 UI 구현
     - Toss Payment와 주문 프로세스를 한 트랜잭션에 묶어 주문 프로세스 구현
-    - 주소 등록에 행안부 API 추가하여 주소의 정확성을 높임
+    - 주소 등록에 행안부 API 추가
 - 쿠폰
     - 쿠폰 REST API 구축과 UI 구현
     - 쿠폰 어드민 REST API 구축과 UI 구현
-    - 쿠폰 발급에 RabbitMQ를 도입하여 쿠폰서버의 부담을 줄임
+    - 쿠폰 발급에 RabbitMQ를 도입하여 TPS를 약 10% 증가시킴
 - 포인트
     - 포인트 REST API 구축과 UI 구현
+    - 포인트 정책 REST API 구축과 UI 구현
 - 회원
     - 만료 쿠폰 알림 REST API 구축과 UI 구현
     - 배치서버를 사용하여 쿠폰 만료 알림과 생일 쿠폰 발급
     - RabbitMq 메시지 큐 시스템으로 배치서버의 부담을 줄임
 - 인프라
-    - Git, GitAction, Docker로 네트워크를 설계 프로젝트의 유지보수성 높임
-    - 추후 k8s를 도입하여 유지보수성을 더 높일 계획이 있음
+    - 전체적인 어플리케이션, Docker 네트워크 설계
+    - nginx에 https추가
+    - Docker stats로 무중단 배포를 구현하여 프로젝트의 유지보수성 높임
 ## 김은비
 ### 담당
+- 카테고리 (CRUD)
+    - 2단계 이상 자기 참조 카테고리 구현
+    - 메인 페이지 카테고리 전체 조회 UI 구현
+- 도서
+    - 도서 페이지 조회/정렬 (이름순, 조회순, 좋아요순, 가격순) - 내림차순/오름차순 구현
+    - 메인/도서 상세 페이지 UI 구현
+- 리뷰 (CRUD)
+    - 등록 : 자신이 구매한 도서에서만 작성이 가능하도록 구현 (toast ui 이용, 이미지 등록 가능)
+    - 삭제 : 관리자 권한 확인/삭제 사유 적은 후 soft delete -> 각종 조회 시 리뷰 상태가 delete인 경우 조회에서 제외되도록 구현
+    - 조회 : 마이페이지에서 자신이 작성한 리뷰 페이지/ 도서 상세 페이지에서 해당 리뷰 페이지 조회/정렬(추천순/날짜순)되도록 구현
+    - 리뷰 UI 구현
+- 도서-좋아요 (CRD)
+- 리뷰-좋아요 (CRD) : 자신이 작성한 리뷰에서는 좋아요 추가되지 않도록 구현
+- 리뷰-댓글 (CRD)
+- 인프라
+    - Git, GitAction, Docker로 네트워크를 설계 프로젝트의 유지보수성 높임
 ## 유지아
+### 담당
+- 회원
+    - 회원가입 및 탈퇴 구현
+    - 로그아웃 구현
+    - 멤버 정보 조회 구현
+    - 멤버 정보 삭제 조회
+    - Payco 인증 구현
+    - 휴면 상태 인증번호로 인증 후 해지 구현
+-스프링배치
+    -회원 구매 비용 주기적으로 확인하여 등급변경 구현
+    -회원 마지막 접속일 주기적으로 확인하여 휴면 상태 변경
 ### 담당
 ## 정주혁
 ### 담당
 ## 한민기
 ### 담당
+- 도서
+    - 도서 REST API 구축
+    - 도서 설명에 Toast UI를 적용시켜 다양한 방식의 도서 소개 가능
+    - 도서 이미지를 object storage에 저장하여 편리하게 사용
+
+- 검색
+    - 도서 검색 REST API 구축
+    - Elastic Search 도입으로 빠른 검색
+    - Elastic Search nori, ngram을 적용하여 더 정확한 분석
+    - Elastic Search 사전 정의어, 동의어, 금지어 적용
+
+- Log & Crash Search 적용하여 로그 수집
+- Key Manager 적용하여 정보 보안
+- Rest Doc, Swagger 사용하여 API 명세서 적용
 
 ## 기술
 - Spring <br>
