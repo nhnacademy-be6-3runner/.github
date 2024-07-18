@@ -63,7 +63,6 @@
 - 일정관리와 같이 매일 BackLog도 관리하여 팀원의 스케쥴을 확인하였습니다.
 
 ## 6. 테스트 커버리지
-Shop 서버의 주요 기능들에 대한 테스트 커버버리지 스샷
 ### 북스토어 서버 테스트 커버리지
 ![image](https://github.com/user-attachments/assets/83811ac6-3454-4a35-8b95-5746c96deee9)
 
