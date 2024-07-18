@@ -63,10 +63,10 @@
 - 일정관리와 같이 매일 BackLog도 관리하여 팀원의 스케쥴을 확인하였습니다.
 
 ## 6. 테스트 커버리지
-### 북스토어 서버 테스트 커버리지
+### 북스토어 API 서버 테스트 커버리지
 ![image](https://github.com/user-attachments/assets/83811ac6-3454-4a35-8b95-5746c96deee9)
 
-### 쿠폰서버 테스트 커버리지
+### 쿠폰서버 API 테스트 커버리지
 ![image](https://github.com/user-attachments/assets/aa44e9a0-3e57-43ba-be6a-9f05e905ac44)
 
 
