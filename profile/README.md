@@ -5,7 +5,7 @@
 - 김은비 [ubiies](https://github.com/ubiies)
 - 유지아 [lyujia](https://github.com/lyujia)
 - 정주혁
-- 한민기
+- 한민기 [dkssudrhd](https://github.com/dkssudrhd)
 
 ## 2. ERD
 ![bookstore (5)](https://github.com/user-attachments/assets/66cd8083-879c-40f7-8f8f-54d12d9cd6de)
@@ -132,6 +132,20 @@
 ### 담당
 ## 한민기
 ### 담당
+- 도서
+    - 도서 REST API 구축
+    - 도서 설명에 Toast UI를 적용시켜 다양한 방식의 도서 소개 가능
+    - 도서 이미지를 object storage에 저장하여 편리하게 사용
+
+- 검색
+    - 도서 검색 REST API 구축
+    - Elastic Search 도입으로 빠른 검색
+    - Elastic Search nori, ngram을 적용하여 더 정확한 분석
+    - Elastic Search 사전 정의어, 동의어, 금지어 적용
+
+- Log & Crash Search 적용하여 로그 수집
+- Key Manager 적용하여 정보 보안
+- Rest Doc, Swagger 사용하여 API 명세서 적용
 
 ## 기술
 - Spring <br>
