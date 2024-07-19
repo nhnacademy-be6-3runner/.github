@@ -141,25 +141,28 @@
 - 도서
     - 북 태그 서비스 구현
 - ERD
-    - 관리 및 보수 
-
-
+    - 관리 및 보수
+  
 ## 한민기
 ### 담당
 - 도서
     - 도서 REST API 구축
-    - 도서 설명에 Toast UI를 적용시켜 다양한 방식의 도서 소개 가능
-    - 도서 이미지를 object storage에 저장하여 편리하게 사용
-
+    - 도서 설명에 Toast UI를 적용시켜 다양한 방식의 도서 설명 활용성을 증가
+    - 도서 이미지를 object storage에 저장하여 유지보수를 높임
+    - 알라딘 API를 통해 도서 등록 기능 구현
 - 검색
     - 도서 검색 REST API 구축
     - Elastic Search 도입으로 2.7배 속도 개선
-    - Elastic Search nori, ngram을 적용하여 Full Text Search 가능
-    - Elastic Search 사전 정의어, 동의어, 금지어 적용
-
-- Log & Crash Search 적용하여 로그 수집
-- Key Manager 적용하여 정보 보안
-- Rest Doc, Swagger 사용하여 API 명세서 적용
+    - Elastic Search nori, ngram을 적용하여 Full Text Search 구현
+    - Elastic Search 사전 정의어, 동의어, 금지어 구현
+- 스프링 배치
+    - 배치 서버를 통해 Elastic Search 데이터 입력 및 백업 데이터 생성
+- front
+    - Spring Security를 사용하여 회원의 인증, 인가 확인 기능 구현
+- 기타 편의기능
+    - Log & Crash Search 적용하여 로그 수집
+    - Key Manager 적용하여 정보 보안
+    - Rest Doc, Swagger 사용하여 API 명세서 적용
 
 ## 기술
 - Spring <br>
