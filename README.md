@@ -1,10 +1,10 @@
 # 3조업고튀어(3runner)
-
+[웹사이트 바로가기](https://3runner.shop/)
 ## 1. 팀원
 - 김병우 [helloJosh](https://github.com/helloJosh)
 - 김은비 [ubiies](https://github.com/ubiies)
 - 유지아 [lyujia](https://github.com/lyujia)
-- 정주혁
+- 정주혁 [jjh260811](https://github.com/jjh260811)
 - 한민기 [dkssudrhd](https://github.com/dkssudrhd)
 
 ## 2. ERD
@@ -127,28 +127,42 @@
     - 멤버 정보 삭제 조회
     - Payco 인증 구현
     - 휴면 상태 인증번호로 인증 후 해지 구현
--스프링배치
-    -회원 구매 비용 주기적으로 확인하여 등급변경 구현
-    -회원 마지막 접속일 주기적으로 확인하여 휴면 상태 변경
-### 담당
+- 스프링배치
+    - 회원 구매 비용 주기적으로 확인하여 등급변경 구현
+    - 회원 마지막 접속일 주기적으로 확인하여 휴면 상태 변경
+
 ## 정주혁
 ### 담당
+- 주문
+    - 주문 내역 조회 (회원, 비회원) UI 구현
+    - 주문 내역 상태 변환 구현 
+    - 주문 환불 구현 및 결제 취소 구현 및 UI 구현
+    - 회원 주문 및 장바구니 서비스 구현
+- 도서
+    - 북 태그 서비스 구현
+- ERD
+    - 관리 및 보수
+  
 ## 한민기
 ### 담당
 - 도서
     - 도서 REST API 구축
-    - 도서 설명에 Toast UI를 적용시켜 다양한 방식의 도서 소개 가능
-    - 도서 이미지를 object storage에 저장하여 편리하게 사용
-
+    - 도서 설명에 Toast UI를 적용시켜 다양한 방식의 도서 설명 활용성을 증가
+    - 도서 이미지를 object storage에 저장하여 유지보수를 높임
+    - 알라딘 API를 통해 도서 등록 기능 구현
 - 검색
     - 도서 검색 REST API 구축
-    - Elastic Search 도입으로 빠른 검색
-    - Elastic Search nori, ngram을 적용하여 더 정확한 분석
-    - Elastic Search 사전 정의어, 동의어, 금지어 적용
-
-- Log & Crash Search 적용하여 로그 수집
-- Key Manager 적용하여 정보 보안
-- Rest Doc, Swagger 사용하여 API 명세서 적용
+    - Elastic Search 도입으로 2.7배 속도 개선
+    - Elastic Search nori, ngram을 적용하여 Full Text Search 구현
+    - Elastic Search 사전 정의어, 동의어, 금지어 구현
+- 스프링 배치
+    - 배치 서버를 통해 Elastic Search 데이터 입력 및 백업 데이터 생성
+- front
+    - Spring Security를 사용하여 회원의 인증, 인가 확인 기능 구현
+- 기타 편의기능
+    - Log & Crash Search 적용하여 로그 수집
+    - Key Manager 적용하여 정보 보안
+    - Rest Doc, Swagger 사용하여 API 명세서 적용
 
 ## 기술
 - Spring <br>
