@@ -4,7 +4,7 @@
 - 김병우 [helloJosh](https://github.com/helloJosh)
 - 김은비 [ubiies](https://github.com/ubiies)
 - 유지아 [lyujia](https://github.com/lyujia)
-- 정주혁
+- 정주혁 [jjh260811](https://github.com/jjh260811)
 - 한민기 [dkssudrhd](https://github.com/dkssudrhd)
 
 ## 2. ERD
@@ -130,9 +130,19 @@
 -스프링배치
     -회원 구매 비용 주기적으로 확인하여 등급변경 구현
     -회원 마지막 접속일 주기적으로 확인하여 휴면 상태 변경
-### 담당
 ## 정주혁
 ### 담당
+- 주문
+    - 주문 내역 조회 (회원, 비회원) UI 구현
+    - 주문 내역 상태 변환 구현 
+    - 주문 환불 구현 및 결제 취소 구현 및 UI 구현
+    - 회원 주문 및 장바구니 서비스 구현
+- 도서
+    - 북 태그 서비스 구현
+- ERD
+    - 관리 및 보수 
+
+
 ## 한민기
 ### 담당
 - 도서
