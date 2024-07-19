@@ -142,8 +142,8 @@
 
 - 검색
     - 도서 검색 REST API 구축
-    - Elastic Search 도입으로 빠른 검색
-    - Elastic Search nori, ngram을 적용하여 더 정확한 분석
+    - Elastic Search 도입으로 2.7배 속도 개선
+    - Elastic Search nori, ngram을 적용하여 Full Text Search 가능
     - Elastic Search 사전 정의어, 동의어, 금지어 적용
 
 - Log & Crash Search 적용하여 로그 수집
