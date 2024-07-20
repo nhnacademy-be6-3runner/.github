@@ -88,7 +88,7 @@
 - 쿠폰
     - 쿠폰 REST API 구축과 UI 구현
     - 쿠폰 어드민 REST API 구축과 UI 구현
-    - 쿠폰 발급에 RabbitMQ를 도입하여 TPS를 약 10% 증가시킴
+    - 쿠폰 발급에 RabbitMQ를 도입하여 TPS를 약 10% 증가시키고 오류를 0%로 낮췄습니다.
 - 포인트
     - 포인트 REST API 구축과 UI 구현
     - 포인트 정책 REST API 구축과 UI 구현
