@@ -3,6 +3,7 @@
 ## 1. 팀원
 - 김병우 [helloJosh](https://github.com/helloJosh)
 - 김은비 [ubiies](https://github.com/ubiies)
+- 오연수 [okeio](https://github.com/okeio)
 - 유지아 [lyujia](https://github.com/lyujia)
 - 정주혁 [jjh260811](https://github.com/jjh260811)
 - 한민기 [dkssudrhd](https://github.com/dkssudrhd)
