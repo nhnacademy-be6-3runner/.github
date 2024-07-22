@@ -119,6 +119,8 @@
 - 리뷰-댓글 (CRD)
 - 인프라
     - Git, GitAction, Docker로 네트워크를 설계 프로젝트의 유지보수성 높임
+- Spring cache
+    - redis cache를 이용해서 메인 페이지(도서 조회/카테고리 조회), 검색 성능 개선
  
 ## 오연수
 ### 담당
