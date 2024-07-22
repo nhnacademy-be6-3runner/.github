@@ -27,7 +27,8 @@
 - 배포 빈도와 요청이 높은 프론트 서버와 북 스토어 서버는 각각 2개를 만들어 부담을 줄였습니다.
 
 #### 인증
-- Front에서 로그인하면 Auth Server에서 JWT 발급
+- Front에서 로그인하면 Auth Server에서 JWT 발급, 토큰은 Redis에 저장하여 무결성 확인
+- Front에서 토큰만료시 Refresh토큰 재발급
 - Gateway에서는 JWT 토큰을 까서 인증이 완료되면 모든 요청 헤더에 Member-Id를 추가하여 인증을 진행
 
 ## 4. CI/CD
