@@ -1,8 +1,12 @@
 # 3조업고튀어(3runner)
-[웹사이트 바로가기](https://3runner.shop/)
+배포 사이트 들어가기 : 📚[3runner.shop](https://3runner.shop/)
+
+[![Watch the video](https://img.youtube.com/vi/pJXM93sb6Ic/maxresdefault.jpg)](https://www.youtube.com/watch?v=pJXM93sb6Ic)
+
 ## 1. 팀원
 - 김병우 [helloJosh](https://github.com/helloJosh)
 - 김은비 [ubiies](https://github.com/ubiies)
+- 오연수 [okeio](https://github.com/okeio)
 - 유지아 [lyujia](https://github.com/lyujia)
 - 정주혁 [jjh260811](https://github.com/jjh260811)
 - 한민기 [dkssudrhd](https://github.com/dkssudrhd)
@@ -88,7 +92,7 @@
 - 쿠폰
     - 쿠폰 REST API 구축과 UI 구현
     - 쿠폰 어드민 REST API 구축과 UI 구현
-    - 쿠폰 발급에 RabbitMQ를 도입하여 TPS를 약 10% 증가시킴
+    - 쿠폰 발급에 RabbitMQ를 도입하여 TPS를 약 10% 증가시키고 오류를 0%로 낮췄습니다.
 - 포인트
     - 포인트 REST API 구축과 UI 구현
     - 포인트 정책 REST API 구축과 UI 구현
@@ -112,12 +116,25 @@
     - 등록 : 자신이 구매한 도서에서만 작성이 가능하도록 구현 (toast ui 이용, 이미지 등록 가능)
     - 삭제 : 관리자 권한 확인/삭제 사유 적은 후 soft delete -> 각종 조회 시 리뷰 상태가 delete인 경우 조회에서 제외되도록 구현
     - 조회 : 마이페이지에서 자신이 작성한 리뷰 페이지/ 도서 상세 페이지에서 해당 리뷰 페이지 조회/정렬(추천순/날짜순)되도록 구현
-    - 리뷰 UI 구현
 - 도서-좋아요 (CRD)
 - 리뷰-좋아요 (CRD) : 자신이 작성한 리뷰에서는 좋아요 추가되지 않도록 구현
 - 리뷰-댓글 (CRD)
 - 인프라
     - Git, GitAction, Docker로 네트워크를 설계 프로젝트의 유지보수성 높임
+- Spring cache
+    - redis cache를 이용해서 메인 페이지(도서 조회/카테고리 조회) 성능 약 96% 개선 (5000개의 요청이 갔을 때 6092ms -> 240ms)
+- 프론트
+    - 타임리프 레이아웃(header, footer, sidebar, login_check.js) 설정
+ 
+## 오연수
+### 담당
+- 회원
+    - 멤버 정보 수정 및 삭제 구현
+    - 멤버 인증 정보 관련 API 작성
+    - JWT, Redis 활용한 인증 시스템 구현
+    - 로그인 및 로그아웃 기능 구현
+ - 스프링 게이트웨이
+    - 클라이언트 요청을 각 서비스로 라우팅하고, JWT를 검증하여 유효한 요청만 전달
 ## 유지아
 ### 담당
 - 회원
