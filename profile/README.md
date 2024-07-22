@@ -1,5 +1,5 @@
 # 3조업고튀어(3runner)
-[웹사이트 바로가기](https://3runner.shop/)
+배포 사이트 들어가기 : 📚[3runner](https://3runner.shop/)
 
 [![Watch the video](https://img.youtube.com/vi/pJXM93sb6Ic/maxresdefault.jpg)](https://www.youtube.com/watch?v=pJXM93sb6Ic)
 
