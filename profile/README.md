@@ -62,10 +62,6 @@
 - 일정은 도서, 주문, 회원 파트로 나누어서 일정을 유연하게 관리하였습니다.
 - 처음부터 중요도가 있는 파트에 일정을 배분하였습니다.
 
-### BackLog
-![image](https://github.com/user-attachments/assets/ea9ffcef-046d-4db0-9947-bc38295b8bef)
-- 일정관리와 같이 매일 BackLog도 관리하여 팀원의 스케쥴을 확인하였습니다.
-
 ## 6. 테스트 커버리지
 ### 북스토어 API 서버 테스트 커버리지
 ![image](https://github.com/user-attachments/assets/83811ac6-3454-4a35-8b95-5746c96deee9)
