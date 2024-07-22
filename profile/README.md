@@ -119,7 +119,7 @@
 - 인프라
     - Git, GitAction, Docker로 네트워크를 설계 프로젝트의 유지보수성 높임
 - Spring cache
-    - redis cache를 이용해서 메인 페이지(도서 조회/카테고리 조회), 검색 성능 개선
+    - redis cache를 이용해서 메인 페이지(도서 조회/카테고리 조회) 성능 약 96% 개선 (5000개의 요청이 갔을 때 6092ms -> 240ms)
 - 프론트
     - 타임리프 레이아웃(header, footer, sidebar, login_check.js) 설정
  
