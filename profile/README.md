@@ -21,16 +21,14 @@
 
 
 ## 3. 아키텍처
-![systemarchitecture (1)](https://github.com/user-attachments/assets/b1a7d53a-071c-42e8-87c4-59f0c25fe772)
+![systemarchitecture drawio](https://github.com/user-attachments/assets/0ed2866d-a631-4871-9b0f-55b7342d3c71)
 
 #### 네트워크 설계
-- 프론트 네트워크와 백 네트워크를 게이트웨이를 통해서만 접근 가능하게 도커 네트워크를 활용하여 설계하였습니다.
-- 배포 빈도와 요청이 높은 프론트 서버와 북 스토어 서버는 각각 2개를 만들어 부담을 줄였습니다.
+- Spring Gateway가 각 서버를 효율적으로 찾아가기 위해 Spring Eureka를 사용하여 서버의 내부 정보를 캐싱하여 네트워크를 설계하였습니다.
+- Client Side 로드밸런싱을 하기위해 OpenFeign을 사용하여 각 서버에 효율적으로 접근하도록 네트워크를 설계하였습니다
 
 #### 인증
-- Front에서 로그인하면 Auth Server에서 JWT 발급, 토큰은 Redis에 저장하여 무결성 확인
-- Front에서 토큰 만료 시 Refresh 토큰 재발급
-- Gateway에서는 JWT 토큰을 까서 인증이 완료되면 모든 요청 헤더에 Member-Id를 추가하여 인증을 진행
+- 여러 서버에서 같은 토큰으로 인증을 관리하기 위해서 JWT 토큰을 도입하였습니다.
 
 ## 4. CI/CD
 ![cicd (1)](https://github.com/user-attachments/assets/4dd7b06a-aeb3-455d-8cf4-34de8f26e6b8)
