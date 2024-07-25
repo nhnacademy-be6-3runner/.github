@@ -3,6 +3,17 @@
 
 [![Watch the video](https://img.youtube.com/vi/pJXM93sb6Ic/maxresdefault.jpg)](https://www.youtube.com/watch?v=pJXM93sb6Ic)
 
+
+- [front](https://github.com/nhnacademy-be6-3runner/3runner-front)
+- [bookstore](https://github.com/nhnacademy-be6-3runner/3runner-bookstore)
+- [coupon](https://github.com/nhnacademy-be6-3runner/3runner-coupon)
+- [auth](https://github.com/nhnacademy-be6-3runner/3runner-auth)
+- [batch](https://github.com/nhnacademy-be6-3runner/3runner-batch)
+- [gateway](https://github.com/nhnacademy-be6-3runner/3runner-gateway)
+- [eureka](https://github.com/nhnacademy-be6-3runner/3runner-eureka)
+- [docs](https://github.com/nhnacademy-be6-3runner/3runner-docs)
+
+
 ## 1. 팀원
 - 김병우 [helloJosh](https://github.com/helloJosh)
 - 김은비 [ubiies](https://github.com/ubiies)
