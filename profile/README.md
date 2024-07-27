@@ -3,15 +3,15 @@
 
 [![Watch the video](https://img.youtube.com/vi/pJXM93sb6Ic/maxresdefault.jpg)](https://www.youtube.com/watch?v=pJXM93sb6Ic)
 
-
-- [front](https://github.com/nhnacademy-be6-3runner/3runner-front)
-- [bookstore](https://github.com/nhnacademy-be6-3runner/3runner-bookstore)
-- [coupon](https://github.com/nhnacademy-be6-3runner/3runner-coupon)
-- [auth](https://github.com/nhnacademy-be6-3runner/3runner-auth)
-- [batch](https://github.com/nhnacademy-be6-3runner/3runner-batch)
-- [gateway](https://github.com/nhnacademy-be6-3runner/3runner-gateway)
-- [eureka](https://github.com/nhnacademy-be6-3runner/3runner-eureka)
-- [docs](https://github.com/nhnacademy-be6-3runner/3runner-docs)
+서버별 소스 리포지토리 경로
+- front 서버 [front](https://github.com/nhnacademy-be6-3runner/3runner-front)
+- backend-api 서버 [bookstore](https://github.com/nhnacademy-be6-3runner/3runner-bookstore)
+- copuon-api 서버 [coupon](https://github.com/nhnacademy-be6-3runner/3runner-coupon)
+- auth 서버 [auth](https://github.com/nhnacademy-be6-3runner/3runner-auth)
+- batch 서버 [batch](https://github.com/nhnacademy-be6-3runner/3runner-batch)
+- gateway 서버 [gateway](https://github.com/nhnacademy-be6-3runner/3runner-gateway)
+- eureka 서버 [eureka](https://github.com/nhnacademy-be6-3runner/3runner-eureka)
+- 기술 정리 [docs](https://github.com/nhnacademy-be6-3runner/3runner-docs)
 
 
 ## 1. 팀원
