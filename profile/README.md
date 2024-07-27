@@ -11,7 +11,6 @@
 - batch 서버 [batch](https://github.com/nhnacademy-be6-3runner/3runner-batch)
 - gateway 서버 [gateway](https://github.com/nhnacademy-be6-3runner/3runner-gateway)
 - eureka 서버 [eureka](https://github.com/nhnacademy-be6-3runner/3runner-eureka)
-- 기술 정리 [docs](https://github.com/nhnacademy-be6-3runner/3runner-docs)
 
 
 ## 1. 팀원
