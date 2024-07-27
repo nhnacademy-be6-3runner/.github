@@ -3,7 +3,7 @@
 
 [![Watch the video](https://img.youtube.com/vi/pJXM93sb6Ic/maxresdefault.jpg)](https://www.youtube.com/watch?v=pJXM93sb6Ic)
 
-서버 
+서버별 소스 리포지토리 경로
 - front 서버 [front](https://github.com/nhnacademy-be6-3runner/3runner-front)
 - backend-api 서버 [bookstore](https://github.com/nhnacademy-be6-3runner/3runner-bookstore)
 - copuon-api 서버 [coupon](https://github.com/nhnacademy-be6-3runner/3runner-coupon)
