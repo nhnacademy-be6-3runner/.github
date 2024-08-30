@@ -1,5 +1,6 @@
 # 3조업고튀어(3runner)
 배포 사이트 들어가기 : 📚[3runner.shop](https://3runner.shop/)
+(8/30일부로 웹사이트가 닫혔습니다)
 
 [![Watch the video](https://img.youtube.com/vi/pJXM93sb6Ic/maxresdefault.jpg)](https://www.youtube.com/watch?v=pJXM93sb6Ic)
 
