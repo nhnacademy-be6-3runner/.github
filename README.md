@@ -2,7 +2,9 @@
 배포 사이트 들어가기 : 📚[3runner.shop](https://3runner.shop/)
 (8/30일 부로 MySQL, Redis, RabbitMQ, Elasticsearch 지원이 끊겨 웹사이트가 닫혔습니다)
 
+# 시연 영상 보기
 [![Watch the video](https://img.youtube.com/vi/pJXM93sb6Ic/maxresdefault.jpg)](https://www.youtube.com/watch?v=pJXM93sb6Ic)
+
 
 서버별 소스 리포지토리 경로
 - front 서버 [front](https://github.com/nhnacademy-be6-3runner/3runner-front)
