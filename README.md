@@ -2,7 +2,7 @@
 배포 사이트 들어가기 : 📚[3runner.shop](https://3runner.shop/)
 (8/30일 부로 MySQL, Redis, RabbitMQ, Elasticsearch 지원이 끊겨 웹사이트가 닫혔습니다)
 
-### 시연 영상 보기
+### 시연 영상 보기 👇🏼
 [![Watch the video](https://img.youtube.com/vi/pJXM93sb6Ic/maxresdefault.jpg)](https://www.youtube.com/watch?v=pJXM93sb6Ic)
 (사진을 클릭하면 시연 영상을 볼 수 있습니다)
 
