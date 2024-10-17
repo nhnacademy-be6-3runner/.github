@@ -23,8 +23,8 @@
 - 한민기 [dkssudrhd](https://github.com/dkssudrhd)
 
 ## 2. ERD
-![bookstore (6)](https://github.com/user-attachments/assets/348f72ed-2481-4b00-8643-8b6c970c36dd)
-- 꾸준히 변경할 때 마다 버전 관리하여 0.04버전이 최종 버전이 되었습니다.
+![Copy of bookstore](https://github.com/user-attachments/assets/b9283135-e817-40b8-8101-0a6ded83eae6)
+- 꾸준히 변경할 때 마다 버전 관리하여 0.05버전이 최종 버전이 되었습니다.
 
 ### DB관리자
 - 정주혁
